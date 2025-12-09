@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>App 1 - Nginx Reverse Proxy Demo</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #111827;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-top: 0.5rem;
+      opacity: 0.9;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: #10b98122;
+      border: 1px solid #10b98166;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>App 1</h1>
+    <p>Ausgeliefert über Nginx als Reverse Proxy.<br>Pfad: <code>/app1</code></p>
+    <div class="tag">Container: app1</div>
+  </div>
+</body>
+</html>
